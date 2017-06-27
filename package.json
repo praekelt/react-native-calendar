@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-calendar@https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+        "scope": null,
+        "escapedName": "react-native-calendar",
+        "name": "react-native-calendar",
+        "rawSpec": "https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+        "spec": "https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+        "type": "remote"
+      },
+      "/Users/nathanbegbie/Repositories/mentorship-droid"
+    ]
+  ],
+  "_from": "https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+  "_id": "react-native-calendar@0.7.0",
+  "_inCache": true,
+  "_location": "/react-native-calendar",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-calendar@https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+    "scope": null,
+    "escapedName": "react-native-calendar",
+    "name": "react-native-calendar",
+    "rawSpec": "https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+    "spec": "https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+    "type": "remote"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+  "_shasum": "44b07b2294db51f57632f2fa63ab2353cfc3ee32",
+  "_shrinkwrap": null,
+  "_spec": "react-native-calendar@https://github.com/peterp/react-native-calendar/tarball/43ef42c6a5819377a4f6fd32f2a3f1cce73ab735",
+  "_where": "/Users/nathanbegbie/Repositories/mentorship-droid",
+  "author": {
+    "name": "Christopher Dro",
+    "email": "casheghian@gmail.com",
+    "url": "https://github.com/christopherdro"
+  },
+  "bugs": {
+    "url": "https://github.com/christopherdro/react-native-calendar/issues"
+  },
+  "contributors": [
+    {
+      "name": "David Sanderson",
+      "email": "coderdave@gmail.com",
+      "url": "https://github.com/coderdave"
+    }
+  ],
+  "dependencies": {
+    "moment": ">=2.10.3"
+  },
+  "description": "Simple Calendar Component for React Native",
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.3.0",
+    "react": "^15.1.0",
+    "react-native": "^0.27.0"
+  },
+  "homepage": "https://github.com/christopherdro/react-native-calendar#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-calendar",
+  "optionalDependencies": {},
+  "readme": "## react-native-calendar\n\nA `<Calendar>` component for React Native\n\nPortrait mode only\n\n## Installation\n\n`npm install react-native-calendar --save`\n\n## Usage\n```javascript\n<Calendar\n  scrollEnabled={true}              // False disables swiping. Default: True\n  showControls={true}               // False hides prev/next buttons. Default: False\n  titleFormat={'MMMM YYYY'}         // Format for displaying current month. Default: 'MMMM YYYY'\n  dayHeadings={Array}               // Default: ['S', 'M', 'T', 'W', 'T', 'F', 'S']\n  monthNames={Array}                // Defaults to english names of months\n  prevButtonText={'Prev'}           // Text for previous button. Default: 'Prev'\n  nextButtonText={'Next'}           // Text for next button. Default: 'Next'\n  onDateSelect={(date) => this.onDateSelect(date)} // Callback after date selection\n  onTouchPrev={this.onTouchPrev}    // Callback for prev touch event\n  onTouchNext={this.onTouchNext}    // Callback for next touch event\n  onSwipePrev={this.onSwipePrev}    // Callback for back swipe event\n  onSwipeNext={this.onSwipeNext}    // Callback for forward swipe event\n  eventDates={['2015-07-01']}       // Optional array of moment() parseable dates that will show an event indicator\n  today={'2016-16-05'}              // Defaults to today\n  startDate={'2015-08-01'}          // The first month that will display. Default: current month\n  selectedDate={'2015-08-15'}       // Day to be selected\n  customStyle={{day: {fontSize: 15, textAlign: 'center'}}} // Customize any pre-defined styles\n  weekStart={1} // Day on which week starts 0 - Sunday, 1 - Monday, 2 - Tuesday, etc, Default: 1\n />\n```\n\n## Available custom styles\n\n- calendarContainer\n- monthContainer\n- calendarControls\n- controlButton\n- controlButtonText\n- title\n- calendarHeading\n- dayHeading\n- weekendHeading\n- weekRow\n- dayButton\n- dayButtonFiller\n- day\n- eventIndicatorFiller\n- eventIndicator\n- dayCircleFiller\n- currentDayCircle\n- currentDayText\n- selectedDayCircle\n- selectedDayText\n- weekendDayText  \n- hasEventCircle\n- hasEventText\n\n\n## TODOS\n\n- [ ] Improve swipe feature\n- [ ] Landscape support\n- [ ] Language Support\n\n## DEMO\n![Demo gif](https://github.com/christopherdro/react-native-calendar-swiper/blob/master/demo.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christopherdro/react-native-calendar.git"
+  },
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "version": "0.7.0"
+}
